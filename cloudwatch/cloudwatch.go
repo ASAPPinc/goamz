@@ -19,10 +19,11 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/feyeleanor/sets"
-	"github.com/goamz/goamz/aws"
 	"strconv"
 	"time"
+
+	"github.com/asappinc/goamz/aws"
+	"github.com/feyeleanor/sets"
 )
 
 // The CloudWatch type encapsulates all the CloudWatch operations in a region.
